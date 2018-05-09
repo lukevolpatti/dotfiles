@@ -24,13 +24,6 @@ set ignorecase
 " don't ignore case when a capital is typed in search
 set smartcase
 
-" hightlight matching bracket pairs, use % to go between them
-set matchpairs+=<:>
-
-" allow mouse use
-set mouse=a
-
-
 "------------------"
 " TEXT FORMATTING  "
 "------------------"
@@ -50,6 +43,9 @@ set smartindent
 " wrap when lines get too long
 set wrap
 
+" improve backspace's functionality
+set backspace=eol,start,indent
+
 
 "------------------"
 " VIEW FORMATTING  "
@@ -62,3 +58,13 @@ set number
 
 " red line at column 80
 set colorcolumn=80
+
+
+"------------------"
+" MISC             "
+"------------------"
+" hightlight matching bracket pairs, use % to go between them
+set matchpairs+=<:>
+
+" allow mouse use
+set mouse=a
