@@ -10,6 +10,9 @@ set wildmenu
 " show commands typed so far
 set showcmd
 
+" show current file name
+set laststatus=2
+
 " infer information from file's type for indentation and plugins
 filetype on
 filetype indent on
